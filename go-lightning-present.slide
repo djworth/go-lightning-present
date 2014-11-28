@@ -1,0 +1,51 @@
+Using Go-Present
+Lightning talk at GoLangPhilly
+8 Dec 2014
+Tags: golang, present
+
+Darrel Herbst
+DramaFever.com
+http://github.com/dherbst
+@darrelherbst
+
+* Present is a tool that you can run locally as a webserver that reads a text file with some markup translated into html, or you can load it from AppEngine.
+
+More information here: [[http://godoc.org/golang.org/x/tools/cmd/present]]
+
+Install it like this:
+
+    go get golang.org/x/tools/cmd/present
+
+Run it like this:
+
+    present go-lightning-present.slide
+
+It will run a server and output
+
+    Open your web browser and visit http://127.0.0.1:3999
+
+This talk is available at [[https://github.com/dherbst/go-lightning-present]]
+
+* The present file format is documented by the present package:
+[[http://godoc.org/golang.org/x/tools/present]]
+
+Put in a link like this
+
+    [[url]label]
+
+    [[http://dramafever.com]]
+
+[[http://dramafever.com]]
+
+* Add code snippets from your go file in the same folder
+
+    .code example.go
+
+.code example.go
+
+
+Add a play window similarly
+
+    .play example.go
+
+.play example.go
