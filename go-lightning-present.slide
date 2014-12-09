@@ -3,10 +3,10 @@ Lightning talk at GoLangPhilly
 8 Dec 2014
 Tags: golang, present
 
-Darrel Herbst
+Dan Worth
 DramaFever.com
-http://github.com/dherbst
-@darrelherbst
+http://github.com/djworth
+@djworth
 
 * Present is a tool that you can run locally as a webserver that reads a text file with some markup translated into html, or you can load it from AppEngine.
 
